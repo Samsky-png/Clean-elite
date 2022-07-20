@@ -163,8 +163,8 @@ h1 {
 /*end of pole description*/
 /*end of first section*/
 /*who we are section*/
-.section-who  {
-  padding: 6% 1% 1% 0 !; 
+.section-who{
+  padding: 6% 1% 1% 0; 
   height: auto;
   width: 100%;
   background-color: #ffd428;
@@ -216,7 +216,7 @@ h4{
 }
 
 .contact-parent{
-  font-size: 1.5;
+  font-size: 1.5em;
 }
 .contact {
   font-size: 1.8em;
