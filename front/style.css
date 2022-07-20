@@ -1,0 +1,261 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 8 version
+*/
+
+@font-face {
+  font-family: Lovelo;
+  src: url("../fonts/Lovelo/Lovelo-Black.eot") format("eot"),
+    url("../fonts/Lovelo/Lovelo-Black.otf") format("otf"),
+    url("../fonts/Lovelo/Lovelo-Black.ttf") format("truetype"),
+    url("../fonts/Lovelo/Lovelo-Black.woff") format("woff"),
+    url("../fonts/Lovelo/Lovelo-Black.woff2") format("woff2");
+}
+
+a{
+  color: #ffd428;
+}
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+/*header section*/
+h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.clean {
+  width: 100vh !important;
+  height: auto;
+  display: block;
+  line-height: 50vh;
+  margin: auto;
+}
+/*top and bottom wave*/
+.top-wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.top-wave svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 176px;
+}
+
+.top-wave .shape-fill , .footer-wave .shape-fill {
+  fill: #ffd428;
+}
+
+.bottom-wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.bottom-wave svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 176px;
+}
+
+.bottom-wave .shape-fill {
+  fill: #ffd428;
+}
+
+/*end of top and bottom wave*/
+
+/*end of header section*/
+
+/*first section*/
+
+.section-propreties {
+  padding: 6% 1% 1% 0;
+  height: auto;
+  width: 100%;
+  background-color: #ffd428;
+  background-image: url("../img/cloud.svg"), url("../img/cloud.svg"),
+    url("../img/cloud.svg"), url("../img/cloud.svg");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: -50px 10px, 80px top;
+  background-position: -184px 102px, calc(100% + 130px) 30vh, -184px 85%,
+    calc(100% + 130px) 98%;
+}
+
+.section-propreties > h2 {
+  padding-bottom: 4%;
+  width: 100%;
+  font-family: Lovelo;
+  font-size: 4em;
+  text-align: center;
+}
+.all-card-parent {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  width: 60%;
+}
+.pole-parent {
+  z-index: 1;
+  height: auto;
+  width: 40%;
+  border-radius: 1rem;
+}
+/*pole images special propreties*/
+.avery {
+  height: 150px;
+  width: auto;
+}
+.jiji {
+  height: 150px;
+  width: auto;
+}
+.onyx {
+  height: 150px;
+  width: auto;
+}
+.vir {
+  height: 150px;
+  width: auto;
+}
+/*end of pole images special propreties*/
+
+/*pole description*/
+.pole-description {
+  font-size: 1.3em;
+  font-family: Lovelo;
+  padding-bottom: 10px;
+}
+.specs-list-parent > li {
+  font-family: Lovelo;
+  font-size: 1.2em;
+  list-style: square inside;
+}
+/*end of pole description*/
+/*end of first section*/
+/*who we are section*/
+.section-who {
+  padding: 6% 1% 1% 0;
+  height: auto;
+  width: 100%;
+  background-color: #ffd428;
+}
+
+.section-who > h2 {
+  padding-bottom: 4%;
+  width: 100%;
+  font-family: Lovelo;
+  font-size: 4em;
+  text-align: center;
+}
+.section-who > article > p {
+  font-size: 1.8em;
+  font-family: Lovelo;
+  text-align: center;
+}
+/*end of who we are section*/
+
+/*footer*/
+footer {
+  color: #ffd428;
+  font-family: Lovelo;
+  background-color: black;
+  height: 350px;
+  width: 100vw;
+}
+.footer-wave {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.footer-wave svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 176px;
+}
+
+h4{
+  font-size: 2em;
+  width: 100vw;
+  text-align: center;
+  margin-top: -100px;
+}
+
+.contact-parent{
+  font-size: 1.5;
+}
+.contact {
+  font-size: 1.8em;
+}
+a:hover{
+  font-size: 1.1em;
+}
+/*end of footer*/
+@media (max-width: 767px) {
+  .section-propreties{
+    padding: 0px;
+  }
+  .top-wave svg {
+    width: calc(100% + 1.3px);
+    height: 110px;
+  }
+  .top-wave svg {
+    width: calc(100% + 1.3px);
+    height: 110px;
+  }
+  .bottom-wave svg {
+    width: calc(100% + 1.3px);
+    height: 110px;
+  }
+  .bottom-wave svg {
+    width: calc(100% + 1.3px);
+    height: 110px;
+  }
+
+  .all-card-parent {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .pole-parent {
+    width: 100%;
+  }
+  h3 {
+    text-align: center;
+  }
+}
